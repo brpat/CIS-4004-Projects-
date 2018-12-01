@@ -1,0 +1,117 @@
+/*
+Code the CSS to the following specifications:
+– Select <body> elements to have background color
+#00BFFF, text color #221811, and font-family Verdana.
+– Select <h1> elements to have text color #FFE4C4 and a
+line height of 200%.
+– Select <h3> elements to have text color #FFE4C4.
+– Select <dt> elements to have text color #FFE4C4 and
+<dd> elements to have color #221811.
+*/
+
+/*
+Our color palette for this website is:
+#00BFFF - medium blue - used for main page background
+#191970 - dark blue - used for banner and footer backgrounds and some text on main background
+#221811 - very dark gray/black - used primarily for text
+#A52A2A - reddish orange - used for headers for <dl> on menu page
+#FFE4C4 - sand - used for text in headers and lists
+Add the lines with the color designations above to a comment near the top of your CSS file.
+*/
+
+body 
+{
+	background-color: #00BFFF;
+	font-family: Verdana;
+	color: #FFE4C4;
+	font-size: 10pt;
+}
+
+h1
+{
+	color: #FFE4C4;
+	line-height: 200%;
+}
+
+h3
+{
+	color: #FFE4C4;
+}
+
+main p 
+{
+	color: black;
+}
+
+
+dt	
+{
+	color: #FFE4C4;
+}
+
+dd
+{
+	color :#221811;
+}
+/*
+Define <footer> elements to have background color #191970, text
+color #FFE4C4, font-size = small, font-style = italic, and text-align =
+center.
+– Define an identifier named address that specifies text color #191970
+with font-size 13pt, and font-family calibri.
+– Select <header> elements to have background color #191970 and
+align the text in the center.
+– Select <li> elements to have color #FFE4C4.
+– Target <strong> elements inside <u> elements inside <p> elements
+to have color #A52A2A, font-family Calibri, and a font size of 1.4em.
+– Target <u> elements inside <p> elements to have color #A52A2A.
+
+*/
+
+
+footer
+{
+	background-color: #191970;
+	color: #FFE4C4;
+	font-size:small;
+	font-style: italic;
+	text-align: center;
+}
+.MainHeader 
+{
+	text-align:center;
+}
+
+.MainHeader h1
+{
+	background-color: #191970;
+	text-align: center;
+}
+
+li
+{
+	color :#FFE4C4;
+} 
+
+p u 
+{
+	color: #A52A2A;
+}
+
+p u strong
+{
+	color: #A52A2A;
+	font-family: Calibri;
+	font-size: 1.4em;
+}
+footer a
+{
+	color: #FFE4C4;
+}
+
+#address
+{
+	color:#191970;
+	font-size: 13pt;
+	font-family: Calibri;
+}

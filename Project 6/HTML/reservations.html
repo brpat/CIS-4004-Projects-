@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			<meta charset="utf-8"/>
+			<link rel="stylesheet" type="text/css" href="../CSS/bistro.css">
+			<link rel="icon" href="../images/favicon.ico" >
+			<script type=text/javascript src="../Javascript/scripts.js"></script> 
+			<title>The Lighthouse Bistro</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>The Lighthouse Bistro</h1>
+			<nav>
+				<p><a href="index.html">Home</a></p>
+				<p><a href="menu.html">Our Menu</a></p>
+				<p><a href="entertainment.html">Entertainment <br>Schedule</a></p>
+				<p><a href="reservations.html">Reservations</a></p>
+
+				<div id="address">
+					The Lighthouse Bistro
+					<br/>
+					#27 Lighthouse Road
+					<br/>
+					Mackinac City, Michigan 49701
+					<br/>	
+					<br/>
+					<a href=“tel:888-111-2222”>888-555-5555</a>
+					<p>888-555-5555</p>
+				</div>
+			</nav>
+			<main>
+				<h2>Reservations at The Lighthouse Bistro</h2>
+				<h3>Contact Us Today To Make Your Dining Resrvations!</h3>
+				<p id="required1">Required field are marked with an asterisk*</p>
+				<form method="post" action="http://cs.ucf.edu/~markl/bistroformreport.php">	
+				<fieldset>
+					<label for="firstName">*First Name:</label>
+					<input type="text" id="firstName" name="firstName" required="required" autofocus="autofocus">
+					<br><br>
+					<label for="lastName">*Last Name:</label>
+					<input type="text" id="lastName" name="lastName" required="required">
+					<br><br>
+					<label for="email">*Email:</label>
+					<input type="text" id="email" name="email" required="required">
+					<br><br>
+					<label for="phone">Phone:</label>
+					<input type="text" id="phone" name="phone">
+					<br><br>
+					<label for="date">Date:</label>
+					<input type="date" id="date" name="date">
+					<br><br>
+					<label for="time">Time:</label>
+					<input type="time" id="time" name="time">
+					<br><br>
+					<label for="guest">Number of Guests</label>
+					<input type="number" id="guest" name="guest" min="0" max="5">
+					<br><br>
+					<label for="textbox">*Comments</label>
+					<!-- I know this is bad practice to fuse scripts plus markup -->
+					<input type="textbox" id="textbox" name="textbox" required="required" maxlength="64" onkeydown="charCount();" >
+					<p id="textB"><span id="charCounter">. </span>Message Limit 64 Characters</p>
+					<input type="submit" id="submit" name="submit" value="Submit">
+					<br><br>
+				</fieldset>
+			</form>
+			</main>
+			<br/>
+			<footer>
+			Copyright &copy; 2018 The Lighthouse Bistro
+			<br/>
+			<a href="Brijesh@Patel.com">Brijesh@Patel.com</a><br>
+			<script >dateTimePrint()</script>
+			</footer>
+		</div>
+	</body>
+</html>
